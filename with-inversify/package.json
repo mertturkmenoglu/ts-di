@@ -1,0 +1,13 @@
+{
+  "name": "with-inversify",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inversify": "^5.0.5",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37"
+  }
+}
