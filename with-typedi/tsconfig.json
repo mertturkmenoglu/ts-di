@@ -1,12 +1,8 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "lib": [
-      "dom",
-      "es6",
-      "es2017",
-      "esnext.asynciterable"
-    ],
+    "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+    "types": ["reflect-metadata"],
     "skipLibCheck": true,
     "removeComments": true,
     "esModuleInterop": true,
@@ -28,11 +24,6 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true
   },
-  "exclude": [
-    "node_modules",
-    "**/*.test.ts"
-  ],
-  "lib": [
-    "es2015"
-  ]
+  "exclude": ["node_modules", "**/*.test.ts"],
+  "lib": ["es2015"]
 }
